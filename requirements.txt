@@ -12,7 +12,7 @@ azure-identity==1.16.1
 azure-core
 
 # Google Cloud
-google-cloud-storage==2.14.0
+google-cloud-storage==2.18.2
 
 # OpenTelemetry
 opentelemetry-api
