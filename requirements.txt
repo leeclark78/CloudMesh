@@ -1,0 +1,7 @@
+click
+pyyaml
+boto3
+azure-sdk
+google-cloud-sdk
+opentelemetry-api
+opentelemetry-sdk

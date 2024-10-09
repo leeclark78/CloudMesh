@@ -1,0 +1,17 @@
+cloudmesh:
+  version: 0.1.0
+  providers:
+    - aws
+    - azure
+    - gcp
+  features:
+    - resource_allocation
+    - observability
+    - cost_optimization
+    - cicd
+    - security
+    - data_sync
+    - architecture
+    - nlp
+    - scaling
+    - compliance
