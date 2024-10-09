@@ -1,7 +1,7 @@
 # Core dependencies
 click==8.1.7
 pyyaml==6.0.2
-requests==2.32.2
+requests==2.32.3
 
 # AWS
 boto3==1.35.36
