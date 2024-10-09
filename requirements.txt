@@ -5,3 +5,4 @@ azure-sdk
 google-cloud-sdk
 opentelemetry-api
 opentelemetry-sdk
+azure-core
