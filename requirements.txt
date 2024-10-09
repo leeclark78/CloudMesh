@@ -8,7 +8,7 @@ boto3==1.35.36
 
 # Azure
 azure-storage-blob==12.19.0
-azure-identity==1.16.1
+azure-identity==1.19.0
 azure-core
 
 # Google Cloud
