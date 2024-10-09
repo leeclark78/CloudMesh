@@ -1,8 +1,23 @@
-click
-pyyaml
-boto3
-azure-sdk
-google-cloud-sdk
+# Core dependencies
+click==8.1.7
+pyyaml==6.0.2
+requests==2.31.0
+
+# AWS
+boto3==1.35.36
+
+# Azure
+azure-storage-blob==12.19.0
+azure-identity==1.15.0
+azure-core
+
+# Google Cloud
+google-cloud-storage==2.14.0
+
+# OpenTelemetry
 opentelemetry-api
 opentelemetry-sdk
-azure-core
+
+# Development tools
+pytest
+flake8

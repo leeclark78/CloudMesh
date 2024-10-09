@@ -37,6 +37,7 @@ jobs:
       shell: bash
     - name: Run tests
       run: |
+        export PYTHONPATH=$PYTHONPATH:$(pwd)
         python -m pytest tests/ -v
       shell: bash
     - name: Run linter
