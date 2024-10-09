@@ -29,6 +29,7 @@ jobs:
         python -m pip install --upgrade pip
         pip install --upgrade setuptools wheel
         pip install -r requirements.txt || echo "Some packages failed to install"
+        pip install pytest flake8
         pip freeze > installed_packages.txt
     - name: Display installed packages
       run: cat installed_packages.txt
@@ -37,7 +38,6 @@ jobs:
         python -m pytest tests/ || echo "Some tests failed"
     - name: Run linter
       run: |
-        pip install flake8
         flake8 . || echo "Linting found some issues"
 
   docs:
