@@ -4,7 +4,7 @@ pyyaml==6.0.2
 requests==2.32.2
 
 # AWS
-boto3==1.35.36
+boto3==1.35.37
 
 # Azure
 azure-storage-blob==12.19.0
